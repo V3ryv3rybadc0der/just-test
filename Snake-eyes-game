@@ -1,0 +1,22 @@
+import random
+from random import randint
+print("Welcome Step right up folks and win money in a game of Snake Eyes this may be your "
+      "lucky day")
+print("So what do you say YES or NO")
+Answer = input()
+if Answer == ("NO") : print("too bad you could have gone home with double the cash you came with")
+if Answer == ("YES") : print("Alright then how much do you wanna put in!")
+Bettingnum = input()
+INTbettingnum = int(Bettingnum)
+if Bettingnum == ("0"): print("Come back when you actually have cash.")
+else: print("Alright lets see what it rolls!")
+Dice1 = randint(1,6)
+Dice2 = randint(1,6)
+Dice1 = int(int1)
+Dice2 = int(int2)
+
+
+bettingamountwin = INTbettingnum * 2
+if int2 == int1: print("YOU WIN and get"+ bettingamountwin +"dollars!")
+if Dice1 >= Dice2: print("aww man"+ Dice1 + "and" + Dice2 + "too bad better luck next time!")
+if Dice1 <= Dice2: print("aww man"+ Dice1 + "and" + Dice2 + "too bad better luck next time!")
